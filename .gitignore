@@ -1,0 +1,116 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+
+# Visual Studio user-specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+# NuGet packages folder
+packages/
+# if you have a private packages folder
+!packages/build/
+
+# Compiled binaries
+*.dll
+*.exe
+*.app
+*.appx
+*.apk
+*.msi
+*.jar
+*.pdb
+
+# Debug / Release folders
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# WPF generated files
+*.g.cs
+*.g.i.cs
+*.baml
+*.xaml.cs~ 
+*.xaml.user
+Generated_Code/
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# Other tools
+*.dbmdl
+*.bak
+*.backup
+*.mdf
+*.ldf
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+*.edmx.*
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Cache
+*.cache
+*.config
+*.log
+*.vspscc
+*.vssscc
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+*.swp
+*.sln.iml
+
+# Publish artifacts
+publish/
+app.publish/
+*.publishsettings
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Local files
+*.local.json
+
+# Sensitive info
+appsettings.Development.json
+secrets.json
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Windows image cache
+Thumbs.db
+ehthumbs.db
